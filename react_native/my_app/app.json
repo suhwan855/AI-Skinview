@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "SkinView",
+    "slug": "SkinView",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon2.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.biniffy.SkinView"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d75b3f0f-bc97-48d0-8965-b0f91a55e3f5"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d75b3f0f-bc97-48d0-8965-b0f91a55e3f5"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
